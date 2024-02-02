@@ -1,40 +1,32 @@
-# React App Initialization Script with Vite
+# React Vite Template
 
-This script automates the process of initializing a new React app with Vite and performs additional cleanup steps to remove default Vite files and folders.
+This repository serves as a template for creating React projects with Vite. It includes a script that automates the process of initializing a new React app with Vite, streamlining the setup for your projects.
 
-## Usage
+## Getting Started
 
-1. **Run the Script:**
+### Prerequisites
 
-   - Open PowerShell.
-   - Navigate to the directory where you want to create the React app.
-   - Run the script by executing the following command:
+- [Node.js](https://nodejs.org/) installed on your machine
 
-     ```powershell
-     .\init-react-vite.ps1
-     ```
+### Usage
 
-2. **Enter Project Name:**
+1. Clone this repository or use it as a template for your new project.
+2. Open a terminal and navigate to the project directory.
+3. Run the script by executing the following command:
 
-   - When prompted, enter a name for your project.
+   ```bash
+   .\create-react-vite.ps1
+   ```
 
-3. **Initialization Process:**
+4. Enter a name for your project when prompted.
+5. The script will create a new React app using Vite and perform additional configurations.
 
-   - The script will create a new React app using Vite, removing default Vite files and folders.
-   - It will rename the generated folder to 'app'.
+### Project Structure
 
-4. **Cleanup:**
-   - The script deletes the following files and folders within the 'app' folder:
-     - `app/public/vite.svg`
-     - `app/src/app.css`
-     - `app/src/index.css`
-     - `app/src/assets` folder
+- The generated folder is renamed to "app."
+- Contents of `App.jsx` are replaced with a basic template.
+- Default Vite files and folders are removed, providing a clean starting point.
 
-## Requirements
+## Contributing
 
-- Node.js and npm installed on your machine.
-
-## Notes
-
-- Make sure to review and customize the script according to your specific needs.
-- Test the script in a controlled environment before using it in a production setting.
+Feel free to contribute to this template by submitting issues, suggesting improvements, or creating pull requests.
